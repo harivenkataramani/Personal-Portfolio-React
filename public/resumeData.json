@@ -1,0 +1,139 @@
+{
+  "main": {
+    "name": "Harivenkataramani",
+    "occupation": "Systems Engineer",
+    "description": "Full Stack MERN Developer ",
+    "image": "Hari.jpg",
+    "bio": "My name is Hari, I'm a Full Stack ReactJS Developer. Currently I'm working at Infosys Limited",
+    "contactmessage": "Get in touch with me to receive further details.",
+    "email": "venkata.hari18@gmail.com.com",
+    "phone": "+91 9940526928",
+    "address": {
+      "street": "No A35, Suchithra Apartments, 5th Avenue cross street, Banu Nagr, Pudur, Ambattur",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "600 053"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/venkatesahari.raina/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/harivenkataramani-s-14b621168/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/im_hari_18/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/harivenkataramani",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Design and develop Full Stack applications using Specialized Web Technologies using React, NodeJs, MongoDB, Redux, WebPack",
+    "education": [
+      {
+        "school": "K.C.G. College of Technology",
+        "degree": "B.E. Mechanical Engineering",
+        "graduated": "May 2018",
+        "description": "First Class"
+      }
+    ],
+    "work": [
+      {
+        "company": "Infosys Limited",
+        "title": "Systems Engineer",
+        "years": "Dec 2018 - Present",
+        "description": "Building Responsive Web Applications using ReactJS"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "90%"
+      },
+      {
+        "name": "CSS",
+        "level": "70%"
+      },
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      },
+      {
+        "name": "NodeJS",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "MERN Stack WhatsApp Clone",
+        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "whatsapp-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+      },
+      {
+        "title": "MERN Stack TikTok Clone",
+        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "tiktok-mern.jpeg",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      },
+      {
+        "title": "Facebook Clone with React",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "facebook-clone.png",
+        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
+      },
+      {
+        "title": "Airbnb Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "airbnb-clone.jpeg",
+        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "netflix-clone.jpeg",
+        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+      },
+      {
+        "title": "Personal Portfolio",
+        "category": "Portfolio built with ReactJS",
+        "image": "portfolio-cover.PNG",
+        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Sonny Sangha must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
