@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Typewriter from "typewriter-effect";
 
 class Header extends Component {
   render() {
@@ -50,11 +51,6 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#testimonials">
-                Testimonials
-              </a>
-            </li>
-            <li>
               <a className="smoothscroll" href="#contact">
                 Contact
               </a>
@@ -64,10 +60,16 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>
-              I'm a {city} based <span>{occupation}</span>. {description}.
-            </h3>
+            <h1 className="responsive-headline">
+              Hello, I'm <br />
+              <Typewriter
+                options={{
+                  strings: ["Harivenkataramani.", "Full Stack Web Developer"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h1>
             <hr />
             <ul className="social">{networks}</ul>
           </div>

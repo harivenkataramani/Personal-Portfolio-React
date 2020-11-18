@@ -4,7 +4,7 @@
     "occupation": "Systems Engineer",
     "description": "Full Stack MERN Developer ",
     "image": "Hari.jpg",
-    "bio": "My name is Hari, I'm a Full Stack ReactJS Developer. Currently I'm working at Infosys Limited",
+    "bio": "I'm a MERN Stack Web Developer based out of Chennai, India who has been in this field for 2 Years. My passion is all about creating elegant websites and solving complex problems in User Interface and Web Functionalities. When i am not coding. I'm probably playing Cricket",
     "contactmessage": "Get in touch with me to receive further details.",
     "email": "venkata.hari18@gmail.com.com",
     "phone": "+91 9940526928",
@@ -14,8 +14,6 @@
       "state": "Tamil Nadu",
       "zip": "600 053"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
     "social": [
       {
         "name": "facebook",
@@ -40,12 +38,12 @@
     ]
   },
   "resume": {
-    "skillmessage": "Design and develop Full Stack applications using Specialized Web Technologies using React, NodeJs, MongoDB, Redux, WebPack",
+    "skillmessage": "Design and develop Web applications using Specialized Web Technologies like React, NodeJs, MongoDB, Redux, WebPack, JSON, AJAX",
     "education": [
       {
         "school": "K.C.G. College of Technology",
         "degree": "B.E. Mechanical Engineering",
-        "graduated": "May 2018",
+        "graduated": "April 2018",
         "description": "First Class"
       }
     ],
@@ -54,21 +52,29 @@
         "company": "Infosys Limited",
         "title": "Systems Engineer",
         "years": "Dec 2018 - Present",
-        "description": "Building Responsive Web Applications using ReactJS"
+        "description": "Developed admin and associate web application for Warehouse Inventory Management System, which provides the Presentation Layer of Inventory, Sales, Purchasing dashboard across multiple locations for the admin. Handled complex logic dispalying dashboard data in graphs along with various filters for real-time data."
       }
     ],
     "skills": [
       {
         "name": "ReactJs",
-        "level": "90%"
+        "level": "85%"
       },
       {
         "name": "CSS",
         "level": "70%"
       },
       {
-        "name": "Git",
+        "name": "Python",
+        "level": "70%"
+      },
+      {
+        "name": "SQL",
         "level": "60%"
+      },
+      {
+        "name": "Git",
+        "level": "80%"
       },
       {
         "name": "HTML5",
@@ -86,53 +92,24 @@
   },
   "portfolio": {
     "projects": [
+      
       {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+        "title": "Instagram Clone with React",
+        "category": "Instagram Clone built with ReactJS",
+        "image": "instagram-clone.PNG",
+        "url": "https://instagramclone18.herokuapp.com/login"
       },
       {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
-      },
-      {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
-      },
-      {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
-      },
-      {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+        "title": "Amazon Clone with React, Firebase",
+        "category": "Amazon Clone built with ReactJS, Firebase",
+        "image": "Amazon-Clone.PNG",
+        "url": "https://app-clone-challenge.web.app/"
       },
       {
         "title": "Personal Portfolio",
         "category": "Portfolio built with ReactJS",
-        "image": "portfolio-cover.PNG",
+        "image": "Hari-Portfolio.PNG",
         "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Sonny Sangha must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
       }
     ]
   }
