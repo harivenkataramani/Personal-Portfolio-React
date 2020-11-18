@@ -9,7 +9,7 @@
     "email": "venkata.hari18@gmail.com.com",
     "phone": "+91 9940526928",
     "address": {
-      "street": "No A35, Suchithra Apartments, 5th Avenue cross street, Banu Nagr, Pudur, Ambattur",
+      "street": "No A35, Suchithra Apartments, 5th Avenue cross street, Banu Nagar, Pudur, Ambattur",
       "city": "Chennai",
       "state": "Tamil Nadu",
       "zip": "600 053"
@@ -109,7 +109,7 @@
         "title": "Personal Portfolio",
         "category": "Portfolio built with ReactJS",
         "image": "Hari-Portfolio.PNG",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+        "url": "https://harivenkataramani.netlify.app/"
       }
     ]
   }
