@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = ({ data }) => {
   const [url, setUrl] = useState(
@@ -12,27 +14,39 @@ const Contact = ({ data }) => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    axios
-      .get(
-        "https://us-central1-personal-portfolio-9311a.cloudfunctions.net/contactFormMail",
-        {
-          params: {
-            name: name,
-            email: email,
-            subject: subject,
-            message: message,
-          },
-        }
-      )
-      .then((res) => {
-        setName("");
-        setEmail("");
-        setSubject("");
-        setMessage("");
-      })
-      .catch((err) => {
-        console.log(err);
+    if (!name || !email || !message) {
+      toast.error("Please Provide Name, Email, and Message", {
+        position: toast.POSITION.TOP_CENTER,
       });
+    } else {
+      axios
+        .get(
+          "https://us-central1-personal-portfolio-9311a.cloudfunctions.net/contactFormMail",
+          {
+            params: {
+              name: name,
+              email: email,
+              subject: subject,
+              message: message,
+            },
+          }
+        )
+        .then((res) => {
+          toast.success("Your message has been Sent!", {
+            position: toast.POSITION.TOP_CENTER,
+          });
+          setName("");
+          setEmail("");
+          setSubject("");
+          setMessage("");
+        })
+        .catch((err) => {
+          toast.error("Your message hasn't been delivered. Please try again", {
+            position: toast.POSITION.TOP_CENTER,
+          });
+          console.log(err);
+        });
+    }
   };
 
   return (
@@ -149,6 +163,7 @@ const Contact = ({ data }) => {
           <div className="widget widget_tweets"></div>
         </aside>
       </div>
+      <ToastContainer />
     </section>
   );
 };

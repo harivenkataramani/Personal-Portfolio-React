@@ -64,7 +64,7 @@ class Header extends Component {
               Hello, I'm <br />
               <Typewriter
                 options={{
-                  strings: ["Harivenkataramani.", "Full Stack Web Developer"],
+                  strings: ["Harivenkataramani", "a Full Stack Web Developer"],
                   autoStart: true,
                   loop: true,
                 }}

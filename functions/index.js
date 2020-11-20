@@ -26,11 +26,10 @@ exports.contactFormMail = functions.https.onRequest((request, response) => {
     mailOptions = {
       from: "hari.venkataramani18@gmail.com",
       to: "venkata.hari18@gmail.com",
-      subject: "Message Sent Successfully",
+      subject: `Portfolio:-Contact${subject}`,
       html: `
                 <p style="font-size:"16px">From: ${name}</p>
                 <p style="font-size:"16px">Email: ${email}</p>
-                <p style="font-size:"16px">Phone Number: ${subject}</p>
                 <p style="font-size:"16px">Message: ${message}</p>
                 `,
     };

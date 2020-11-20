@@ -104,10 +104,20 @@
 
 @media only screen and (max-width: 767px) {
   header {
+    position: relative;
     text-align: center;
     max-width: 500px;
     height: auto;
-    /* width: 100%; */
+    background: #161415 url(../images/HariSMScreens.PNG) no-repeat top center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  header .banner-text {
+    margin-top: 35em;
   }
 
   /* mobile navigation
@@ -207,6 +217,7 @@
   }
   header .banner-text h1 {
     font: 68px/1.1em "opensans-bold", sans-serif;
+    text-align: center;
   }
   header .banner-text h3 {
     font: 16px/1.9em "librebaskerville-regular", serif;
